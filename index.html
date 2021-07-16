@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+		.ulone{
+			list-style: none;
+			background-color: black;
+			color: aliceblue;
+			height: 40px;
+			text-align: center;
+		}
+		.ulone li{
+			
+			height: calc(100%);
+			width: calc(20%);
+			
+			text-align: center;
+			line-height: calc(100%);
+		}
+		.ulone li:hover{
+			background-color: #383838;
+			
+		}
+		.one{
+			margin: 0 auto;
+			width: calc(100%);
+		}
+		.one1{
+			width: calc(100%-95px);
+		}
+		.one1-1{
+			    float: left;
+		}
+		
+		.one1-1-1 img{
+			float: left;
+			width: 25px;
+			margin: 10px 5px;
+		}
+		.one1-1-1 p{
+			float:left;
+			margin: 10px auto;
+			font-size: calc(90%)
+		}
+		.one1-2{
+			float: right;
+			width: 66.66667%;
+			font-size: 100%;
+			font-size: ;
+		}
+		.one1-2 p{
+			font-size: 30px;
+			text-align: center;
+			line-height: 100%;
+		}
+		
+		</style>
+		<script type="text/javascript">
+			document.write("")
+		</script>
+	</head>
+	<body>
+		<ul class="ulone">
+			<li>priza</li>
+			<li>achevement</li>
+			<li>active</li>
+		</ul>
+		<div class="one">
+			<div class="one1">
+				<div class="one1-1">
+					<img src="./image/罗小黑0.jpeg" alt="" id="BeatuImage">
+					<div class="one1-1-1">
+						<img src="image/坐标.jpeg" alt="">
+						<p>ZheJiang,PRC</p>
+					</div>
+				</div>
+				<div class="one1-2">
+						<p>Hi.I'm<strong>Michael Ma</strong>.</p>
+				<p>文字</p>
+				</div>
+			</div>
+		</div>
+		
+		
+		<!-- ///////////////////////////////////////// -->
+	<!-- <span> 
+	<input type="button" name="" id="openbtn" value="打开窗口" />
+	<input type="button" name="" id="closebtn" value="关闭窗口" />
+	</span> -->
+	
+	<div id="" style="width: calc(50%); margin: calc(25%); height: auto;">
+		<img src="image/猪1.jpeg" id="pig" style="width: 100%;">
+	</div>
+		<script type="text/javascript">
+			// var flag = confirm("点错了？")
+			// if(flag){
+			// 	alert("TvT")
+			// 	setTimeout("closePage();",1000);
+			// }else{
+			// 	alert("嘿嘿~")
+			// }
+			// var result = prompt("请输入用户名");
+			// alert(result+",欢迎光临!");
+			// var openbtn = document.getElementById("openbtn")
+			// openbtn.onclick=function(){
+			// 	open("MainPages.html");
+			// }
+			
+			//  function closePage(){
+			// 	closebtn.onclick=close();
+			// }
+			// setInterval("f();",1000)
+			// function f(){
+			// 	alert("快走！")
+			// }
+			var pig = document.getElementById("pig");
+			var num = 1;
+			document.write("?")
+			setInterval(manyPigs,1000);
+			function manyPigs(){
+					pig.src="image/猪"+num+".jpeg";
+					num++;
+					if(num==4){
+						num=1;	
+				}
+			}
+			
+			
+		</script>
+	</body>
+</html>
